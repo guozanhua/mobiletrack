@@ -3,5 +3,4 @@ var io = require('./dependencies/sails.io')(socketIO);
 
 var L = require("./dependencies/leaflet.js");
 
-console.log(io.socket);
-console.log('IO Loaded!!');
+L.Icon.Default.imagePath = 'images';
